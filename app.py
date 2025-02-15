@@ -35,3 +35,5 @@ if st.button("Predict Next Word"):
     next_word = predict_nextword(model, tokenizer, input_text, max_sequence_len)
     st.write(f'Next word: {next_word}')
 
+st.markdown("<p style='font-size:12px; text-align:center;'>Developed by Suresh Krishnan <a href='https://www.linkedin.com/in/suresh-krishnan-s/' target='_blank'>LinkedIn</a> | <a href='https://github.com/SKrishna-7' target='_blank'>GitHub</a></p>", unsafe_allow_html=True )
+
